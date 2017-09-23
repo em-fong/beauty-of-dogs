@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <meta charset="UTF-8" />
+
+    <title> Assignment 1 Part 2 (Website) </title>
+
+    <!-- Media query for narrow browser width -->
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="responsivecss/mobile.css" />
+
+    <!-- Media query for medium browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)"
+        href="responsivecss/tablet.css" />
+
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="responsivecss/desktop.css" />
+
+    <!-- Prevents smartphones from scaling pages down -->
+    <meta name="viewport" content="initial-scale=1">
+
+    <!-- link to external CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!-- link to google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Kreon|Sacramento" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <div id="container">
+
+
+<nav>
+  <ul>
+  <li><a href="index.html">Home</a> </li>
+  <li><a href="page1.html">Shepherds</a></li>
+  <li><a href="page2.html">Samoyeds</a></li>
+  <li><a href="page3.html">Malamutes</a></li>
+  <li><a href="page4.html">Got Dogs? Contact Us</a></li>
+</nav>
+
+<section align="CENTER">
+<header>
+  <h1 class="welcome"> Contact Us! </h1>
+</header>
+
+<figure>
+  <img src="contact_dog.jpg" class="banner" alt="business dog">
+</figure>
+</section>
+
+<section class ="form" align="left">
+  <form action="" name=form1 method="post">
+    <fieldset>
+    <legend> Contact Information </legend>
+    <label> Name: <input type=text name=name id=name required> </label> <br>
+    <label> Email: <input type=email name=email id=email required> </label> <br>
+    <label> Age: <input type="range" name="age" min="0" max="130"> </label> <br>
+    <label> Phone Number: <input type=number name=num id=num> </label> <br>
+    <label> Search Database: <input type=search name=search id=search> </label> <br>
+    <label> Favorite Color: <input type="color" name="favcolor"> </label> <br>
+    <label> Date of Submission: <input type=date name=date id=date> </label> <br>
+  </fieldset>
+<br>
+
+<fieldset>
+  <legend> Dog-In </legend>
+  <label> Username: <input type="text" name="username" required><br> </label>
+  <label> Password: <input type="password" name="password" required><br> </label>
+</fieldset>
+<br>
+
+<fieldset>
+    <legend> Feedback </legend>
+    <label> Do You Like Dogs?: <input type=radio name=dogquestion id=dogquestion> Yes <input type=radio name=dogs id=dogs> No </label> <br>
+    <label> What Other Dogs Would You Like to See?: </label>
+    <select>
+      <optgroup label="Dog Breeds">
+      <option value="shep" name=shep id=shep>Bully Dogs</option>
+      <option value="sam" name=sam id=sam>Small Dogs</option>
+      <option value="mal" name=mal id=mal>Weird Looking Dogs</option>
+      <option value="oth" name=oth id=oth>Other</option>
+    </optgroup>
+    </select>
+    <br><br>
+
+      <br><label> How Many Dogs Should We Add?: </label>
+      <input type="number" name="quantity" min="1" max="300">
+    <br><br>
+    <label> Comments/Suggestions: <textarea rows="4" cols="50" name=comments id=comments></textarea> </label> <br>
+
+</fieldset>
+<br>
+<fieldset>
+  <button name=bt1 id=bt1> Click!! </button>
+  <input type="submit" value="Submit" name=sub id=sub>
+  <input type="reset" value="Reset" name=reset id=reset>
+</fieldset>
+</form>
+</section>
+
+</div>
+
+
+</body>
+
+
+</html>

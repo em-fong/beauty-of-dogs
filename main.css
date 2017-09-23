@@ -1,0 +1,104 @@
+body {
+  background-color: #BFE2E1;
+  font-family:"Kreon", sans-serif;
+}
+
+header {
+  font-family: "Sacramento", cursive;
+  font-size: 60px;
+  border: 0px;
+}
+
+form {
+  padding-left: 35%;
+  width: 30%;
+}
+
+nav {
+  font-size: 30px;
+  background: #EFEFEF;
+  width: 100%;
+  height: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+li {
+    float: left;
+    margin-right: 3%;
+    text-decoration: none;
+  }
+
+  ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #9d9d9d;
+}
+
+a:hover{
+  color: #BFE2E1;
+}
+
+a:visited {
+  color: #FFFFFF;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color:#008B8B;
+  height: 4px;
+}
+
+#puffie {
+  width: 70%;
+  height: 70%;
+}
+
+#elmo {
+  padding-left: 80px;
+  width: 50%;
+  height: 50%;
+}
+
+#phil {
+  width: 50%;
+  height: 50%;
+}
+
+.banner {
+  width: 80%;
+  height: 80%;
+}
+.heading {
+  padding-top: 100px;
+}
+
+.welcome {
+  font-size: 200%;
+}
+
+.text {
+  width: 80%;
+  padding-left: 25px;
+}
+
+.content1, .content2 {
+  padding-left: 10px;
+  margin: auto;
+  width: 49%;
+  float:left;
+}
